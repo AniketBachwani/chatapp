@@ -1,0 +1,47 @@
+name: chatapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  flutter_launcher_icons: ^0.14.2
+  provider: ^6.1.2
+  cloud_firestore: ^5.6.0
+  flutter_animated_button: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/pusheen-messages-icon-aesthetic.png"
+  min_sdk_android: 21 
+  # remove_alpha_ios: true
+  # adaptive_icon_background: "#ffffff"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/Image1.jpg
+    - assets/Image4.jpg
+    - assets/Image2.jpg
+    - assets/Image5.jpg
+    - assets/Image6.jpg
+    - assets/Image3.jpg
+    - assets/Image9.jpg
+    - assets/Image7.jpg
+    - assets/Image8.jpg
+    - assets/Image10.jpg
